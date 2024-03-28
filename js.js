@@ -76,7 +76,7 @@ function redirectToApp() {
   var currentUrl = window.location.href; // Dobijanje trenutnog URL-a
   if (md.is("AndroidOS")) {
     window.location.href =
-      "https://coupons.joker.co.rs/~android/ke/app-ke-release.apk";
+      "https://xsportsbet.com/android/app-xsportsbet-release.apk";
   } else {
     // Ako uređaj nije prepoznat, redirektuj na osnovnu LP
     currentUrl;
