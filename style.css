@@ -44,13 +44,16 @@ header {
     background-size: cover;
     background-position: center top;
     border-bottom: 2px solid #2E5465;
-    padding-bottom: 10rem;
+
 }
 .meridianApp-wrapper {
     width: 85%;
     max-width: 100%;
     margin: 0 auto;
-    padding: 20rem 0;
+    padding: 25rem 0;
+}
+.meridianApp-text{
+    width: 70%;
 }
 .meridianApp-text h2 {
     font-family: 'Roboto', sans-serif;
@@ -466,6 +469,7 @@ footer {
     }
     #meridianApp {
         background-image: linear-gradient(179.61deg, #10181C 0.65%, #1C2F38 99.98%);
+        padding-bottom: 0px;
     }
     .meridianApp-wrapper {
         width: 95%;
