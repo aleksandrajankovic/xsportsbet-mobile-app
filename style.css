@@ -44,6 +44,7 @@ header {
     background-size: cover;
     background-position: center top;
     border-bottom: 2px solid #2E5465;
+    padding-bottom: 10rem;
 }
 .meridianApp-wrapper {
     width: 85%;
@@ -593,15 +594,11 @@ footer {
             font-size: 23px;
             line-height: 30px;
         }
+        
         .logo img{
-            display: none;
-        }
-        .logo {
-            background-image: url(./img/mb.png);
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 4rem;
-            width: 4rem;
+         
+            height: 2rem;
+          
         }
         .btnLng {
             max-width: 100%;
@@ -612,6 +609,10 @@ footer {
         }
         .links ul li a {
             font-size: 1.4rem;
+        }
+        .copyright p {
+            font-size: 1rem;
+          
         }
      }
     @media screen and (max-width: 375px) { 

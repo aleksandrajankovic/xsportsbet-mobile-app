@@ -1,72 +1,16 @@
 
-/*SWIPER FOOTER*/
 
-var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 10,
-  spaceBetween: 10,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    300: {
-      slidesPerView: 3.5,
-      spaceBetween: 10,
-    },
-    480: {
-      slidesPerView: 3.5,
-      spaceBetween: 10,
-    },
+/*CURRENT YEAR*/
 
-    640: {
-      slidesPerView: 3.5,
-      spaceBetween: 10,
-    },
-    768: {
-      slidesPerView: 4.5,
-      spaceBetween: 10,
-    },
-    1024: {
-      slidesPerView: 6.5,
-      spaceBetween: 20,
-    },
-  },
+let date = new Date();
+let curYear = date.getFullYear();
+let tekst = `@ ${curYear} All rights reserved | XSPORTBET`;
+
+document.querySelectorAll(".copyright-text").forEach(function(element) {
+  element.innerText = tekst;
 });
 
-var swiper = new Swiper(".mySwiper1", {
-  slidesPerView: 10,
-  spaceBetween: 10,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-  breakpoints: {
-    300: {
-      slidesPerView: 4.5,
-      spaceBetween: 10,
-    },
-    480: {
-      slidesPerView: 4.5,
-      spaceBetween: 20,
-    },
-    640: {
-      slidesPerView: 4.5,
-      spaceBetween: 30,
-    },
-    768: {
-      slidesPerView: 4.5,
-      spaceBetween: 50,
-    },
-    800: {
-      slidesPerView: 6.5,
-      spaceBetween: 30,
-    },
-    1200: {
-      slidesPerView: 10.5,
-      spaceBetween: 20,
-    },
-  },
-});
+
 
 // Kreiranje MobileDetect objekta
 var md = new MobileDetect(window.navigator.userAgent);
@@ -83,5 +27,4 @@ function redirectToApp() {
   }
 }
 
-// Pozivanje funkcije za izvršavanje redirekcije
 redirectToApp();
