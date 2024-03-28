@@ -34,6 +34,9 @@ header {
     align-items: center;
     background: linear-gradient(90deg, #A6080E 0%, #D11101 100%);
 }
+.logo img {
+    height: 3rem;
+}
 /*SECTION MERIDIAN APP*/
 #meridianApp {
     background-image:url(./img/background.jpg);
