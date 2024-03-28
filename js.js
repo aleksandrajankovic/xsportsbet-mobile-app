@@ -4,7 +4,7 @@
 
 let date = new Date();
 let curYear = date.getFullYear();
-let tekst = `@ ${curYear} All rights reserved | XSPORTBET`;
+let tekst = `@ ${curYear} All rights reserved | XSPORTSBET`;
 
 document.querySelectorAll(".copyright-text").forEach(function(element) {
   element.innerText = tekst;

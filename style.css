@@ -594,11 +594,15 @@ footer {
             font-size: 23px;
             line-height: 30px;
         }
-        
         .logo img{
-         
-            height: 2rem;
-          
+            display: none;
+        }
+        .logo {
+            background-image: url(./img/logo-mob.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 4rem;
+            width: 7rem;
         }
         .btnLng {
             max-width: 100%;
@@ -626,9 +630,7 @@ footer {
         .footer-wrapper {
             padding: 20px 0;
         }
-        .btn {
-            display: none;
-        }
+      
     }
  /* Stil za prikaz padajućeg menija s zastavicama */
   .lang-switcher {
