@@ -21,6 +21,9 @@ function redirectToApp() {
   if (md.is("AndroidOS")) {
     window.location.href =
       "https://xsportsbet.com/android/app-xsportsbet-release.apk";
+  }  else if (md.is("iPhone")) {
+    window.location.href =
+      "https://apps.apple.com/zm/app/xsportsbet/id1250557531";
   } else {
     // Ako uređaj nije prepoznat, redirektuj na osnovnu LP
     currentUrl;

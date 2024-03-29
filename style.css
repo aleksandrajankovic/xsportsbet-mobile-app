@@ -34,6 +34,14 @@ header {
     align-items: center;
     background: linear-gradient(90deg, #A6080E 0%, #D11101 100%);
 }
+.logo {
+    width: 50%;
+}
+.btn {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
 .logo img {
     height: 3rem;
 }
@@ -603,10 +611,10 @@ footer {
         }
         .logo {
             background-image: url(./img/logo-mob.svg);
-            background-size: cover;
+            background-size: contain;
             background-repeat: no-repeat;
-            height: 4rem;
-            width: 7rem;
+            height: 3rem;
+          
         }
         .btnLng {
             max-width: 100%;
