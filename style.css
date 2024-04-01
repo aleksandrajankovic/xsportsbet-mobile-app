@@ -32,7 +32,7 @@ header {
     gap: 4px;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(90deg, #A6080E 0%, #D11101 100%);
+    background: #F48D3B;
 }
 .logo {
     width: 50%;
@@ -272,12 +272,13 @@ header {
 }
 .btn a:last-child {
     padding: 1rem;
-    background-color: #284755;
+    background-color: #FACC01;
     font-size: 1.2rem;
     text-transform: uppercase;
     line-height: 1.3rem;
     font-weight: 700;
     border-radius: 0.6rem;
+    color: #000;
 }
 .btnLng {
     display: flex;
